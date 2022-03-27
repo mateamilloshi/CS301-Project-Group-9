@@ -1,5 +1,5 @@
 # CS301-Project-Group-9 
-## Pricing Ground
+## Pricing Ground INC
 
 <p>
 We will be investigating how house prices increase or decrease depending on different factors. These factors can be the current house supply, demand and different characteristics of the house. With the current house pricing crisis it would be interesting to see what the catalyst factors that influence the price the most.  
