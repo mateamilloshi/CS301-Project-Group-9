@@ -10,7 +10,7 @@ linear regression analysis. Our approach will be very similar to those currently
 continue to refine our results (to obtain accurate weights for the correlation coefficients between different features and the house pricing) with a gradient descent
 optimizer. 
 
-<h3 align="center">Introduction</h3>
+Introduction
 Housing prices today have reached an all time high due to external factors other than those that typically define a house’s “price tag”. This is a great opportunity 
 to study data that showcase how real estate prices outside this present crisis. Do factors that we personally think correlate with the sale price of a house the most 
 actually reflect the results? Most likely not. We was pleasantly surprised to realize that characteristics of a house that we thought were detrimental to a selling 
@@ -44,7 +44,7 @@ the year it was remodeled.
 Next we found the least correlated features with the sale price of the house. The three features that were found to have the smallest correlation coefficient, 0.32, 
 were the OpemPorchSF which is the square footage of of the open porch, the 2ndFlrSF which is the square footage of the second floor and the WoodDeckSF which is the 
 square footage of of the wood deck. 
-	![link Here](link also here)
+
 This graph that shows the correlation between SalePrice and 2ndFlrSF is very interesting, as it shows that having a two floor house doesn't necessarily mean that the
 house will be more expensive. 
 Next we decided to process the data and deal with the inconsistencies that we previously noticed. We ran a test to check which are the features that contained the 
