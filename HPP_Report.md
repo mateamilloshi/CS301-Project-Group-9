@@ -1,6 +1,6 @@
-##PROJECT REPORT
+#PROJECT REPORT
 ##Pricing Ground Inc.
-
+<p>
 Abstract
 The goal of this project is to investigate how house pricing fluctuates depending on different factors as well as predict the house price given those factors. 
 Some of these factors can be the different physical characteristics of the house, the year it was built or its location. The relationship between some of these factors
@@ -66,7 +66,7 @@ Predicting House Prices is not a simple task and it requires a lot of understand
 possible algorithm for the training model. However at the same time it is a very interesting process. We were able to understand in a small scale what is considered 
 the most influential characteristic of the house, which was the living room area and one of the features that correlated the least with the price was the second floor
 square footage which is something that surprised us. 
-
+<p>
 References
 Data - https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data
 Google Collab Viewer - 
