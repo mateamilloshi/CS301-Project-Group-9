@@ -1,5 +1,5 @@
 PROJECT REPORT<br/>
-Pricing Ground Inc.
+<h3 align="center">Pricing Ground Inc.</h3><br/>
 
 <h3 align="center">Abstract</h3><br/>
 The goal of this project is to investigate how house pricing fluctuates depending on different factors as well as predict the house price given those factors. 
