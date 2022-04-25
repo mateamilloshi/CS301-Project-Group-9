@@ -45,6 +45,10 @@ Next we found the least correlated features with the sale price of the house. Th
 were the OpemPorchSF which is the square footage of of the open porch, the 2ndFlrSF which is the square footage of the second floor and the WoodDeckSF which is the 
 square footage of of the wood deck. 
 
+![Screenshot 2022-04-24 120346](https://user-images.githubusercontent.com/85270730/165004671-3c5e99ee-c295-4d4d-9396-109be74a985e.jpg)
+
+
+
 This graph that shows the correlation between SalePrice and 2ndFlrSF is very interesting, as it shows that having a two floor house doesn't necessarily mean that the
 house will be more expensive. 
 Next we decided to process the data and deal with the inconsistencies that we previously noticed. We ran a test to check which are the features that contained the 
