@@ -1,4 +1,4 @@
-PROJECT REPORT<br/>
+<h3 align="center">Project Report</h3><br/>
 <h3 align="center">Pricing Ground Inc.</h3><br/>
 
 <h3 align="center">Abstract</h3><br/>
@@ -10,26 +10,26 @@ linear regression analysis. Our approach will be very similar to those currently
 continue to refine our results (to obtain accurate weights for the correlation coefficients between different features and the house pricing) with a gradient descent
 optimizer. 
 
-Introduction<br/>
+<h3 align="center">Introduction</h3><br/>
 Housing prices today have reached an all time high due to external factors other than those that typically define a house’s “price tag”. This is a great opportunity 
 to study data that showcase how real estate prices outside this present crisis. Do factors that we personally think correlate with the sale price of a house the most 
 actually reflect the results? Most likely not. We was pleasantly surprised to realize that characteristics of a house that we thought were detrimental to a selling 
 price, come secondary by popular demand. 
 
-Related Work<br/>
+<h3 align="center">Related Work</h3><br/>
 Most of the published work related to Housing Pricing Prediction uses a similar approach in presenting their algorithm to ours. We started with an extensive
 data analysis in order to get a better understanding of the data we are working with and be able to recognize data that needed processing or conversion. Then this 
 data will be used to run the training model and generate the results. However, a big difference between the other publications and this report is the use of certain 
 libraries. Our solution using JAX, a Python library designed for high-performance LM research. 
 
-Data<br/>
+<h3 align="center">Data</h3><br/>
 The data is taken from the Kaggle competition called “House Prices - Advanced Regression Techniques”. There are 1460 rows which are the training data points and 80 
 columns which are the different features.
 The analysis of the SalePrice data points gave us some interesting results. The mean sale price was calculated at $180,921, the maximum was priced at $755,000 and 
 the minimum was found to be $34,900. As we processed the data we noticed that there were many missing values , NA, which had to be dropped or replaced. The way this 
 was done is described in the Methods section and the reason we decided to drop these data points is mostly null and dropping them will not affect the training model.
 
-Methods<br/>
+<h3 align="center">Methods</h3><br/>
 The first step we took was familiarizing ourselves with the data that we were given from the Kaggle competition. The house sales prices were plotted in a graph that 
 followed Gaussian distribution. The graph also shows that most house sale prices are placed between $150k-$250k, which was expected as the mean value was found around 
 $180k.
@@ -57,13 +57,13 @@ Next we decided to process the data and deal with the inconsistencies that we pr
 most missing,NA, data. Then we decided to drop the top five numerical features that had the most missing data. These were PoolQC and MiscFeature with over 1400 
 missing data, Alley, Fence and FireplaceQu. The ‘ID’ and ‘SalePrice’ columns are also being dropped because it 
 
-Experiments <br/>
+<h3 align="center">Experiments</h3><br/>
 We run a few experiments to make sure that the data we are working with is ready to be used in our training model. This is something that most related already 
 published work also did. It is important to clear the data of any NA, values that might confuse the model while training. Housing Price Prediction can be achieved 
 with many different models. Our purpose is to present the one that we believe will be the most effective one. After trying out models like Gradient Boosting Regressor,
 Random Forest Regressor, Light Gradient Boosting Regressor, we decided that the best model is Multivariable Linear Regression. 
 
-Conclusion <br/>
+<h3 align="center">Conclusion</h3><br/>
 Predicting House Prices is not a simple task and it requires a lot of understanding of the data you are working with as well as being able to understand the best 
 possible algorithm for the training model. However at the same time it is a very interesting process. We were able to understand in a small scale what is considered 
 the most influential characteristic of the house, which was the living room area and one of the features that correlated the least with the price was the second floor
