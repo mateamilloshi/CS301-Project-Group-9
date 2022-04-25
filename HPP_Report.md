@@ -33,10 +33,13 @@ Methods
 The first step we took was familiarizing ourselves with the data that we were given from the Kaggle competition. The house sales prices were plotted in a graph that 
 followed Gaussian distribution. The graph also shows that most house sale prices are placed between $150k-$250k, which was expected as the mean value was found around 
 $180k.
+![Screenshot 2022-04-24 113137](https://user-images.githubusercontent.com/85270730/165005026-2459c0a8-331c-4717-b929-3e1da372dacb.jpg)
 
 Next we decided to analyze our numerical data and find the 10 most correlated values with SalePrice. Upon results the most influential feature was found to be 
 ‘OverallQual’ with a correlation coefficient 0.79. The OverallQual, which is the overall quality of the house, was given as a rating from 1-10 for each house and the
 higher the rating the higher the house sale price. 
+
+![Screenshot 2022-04-24 210534](https://user-images.githubusercontent.com/85270730/165005119-35b77e56-8dc4-4f11-94c4-ab816116566e.jpg)
 
 Second most correlated numerical feature with the house sale price was found to be the size of the living room area, followed by the amount of cars that fit in the 
 garage, the garage area, the total basement area, the first floor square footage, the size of the full bath, the total rooms of the house, the year it was built and 
