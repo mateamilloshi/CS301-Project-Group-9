@@ -1,7 +1,7 @@
 PROJECT REPORT<br/>
 Pricing Ground Inc.
 
-Abstract<br/>
+<h3 align="center">Abstract</h3><br/>
 The goal of this project is to investigate how house pricing fluctuates depending on different factors as well as predict the house price given those factors. 
 Some of these factors can be the different physical characteristics of the house, the year it was built or its location. The relationship between some of these factors
 and the sales price is shown through graphs. It is interesting to see how much some components can influence the house price more than others, and some you didn't 
